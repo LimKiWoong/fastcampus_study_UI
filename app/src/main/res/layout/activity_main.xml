@@ -7,23 +7,63 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="gdgd"
-        android:textColor="#A65050"
-        android:textSize="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="100"
+            android:background="@color/purple_200"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="200"
+            android:background="@color/teal_700"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="300"
+            android:background="#3044A6"
+            android:gravity="center"/>
 
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:text="hello world"
-        android:gravity="right|center">
-    </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="100"
+            android:background="@color/purple_200"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="200"
+            android:background="@color/teal_700"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="300"
+            android:background="#3044A6"
+            android:gravity="center"/>
+
+    </LinearLayout>
 
 </LinearLayout>
