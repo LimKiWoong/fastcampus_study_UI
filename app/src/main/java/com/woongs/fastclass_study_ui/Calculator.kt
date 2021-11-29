@@ -64,6 +64,8 @@ class Calculator : AppCompatActivity() {
 
         plus.setOnClickListener {
             old = (old.toInt() + new.toInt()).toString()
+            new = ""
+            sum.setText(old)
 
         }
     }
