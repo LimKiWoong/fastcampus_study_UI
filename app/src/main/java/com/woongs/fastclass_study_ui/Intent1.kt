@@ -10,6 +10,8 @@ class Intent1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intent)
 
+
+
         change_activity.setOnClickListener {
 //            val intent = Intent(this@Intent1,Intent2::class.java)
 //            intent.putExtra("number1",1)

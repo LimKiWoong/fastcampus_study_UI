@@ -10,11 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fastclass_study_UI">
         <activity
-            android:name=".Intent2"
-            android:exported="false" />
-        <activity
-            android:name=".Intent1"
-            android:exported="true">
+            android:name=".InternetOpen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Calculator"
+            android:name=".Intent2"
+            android:exported="false" />
+        <activity
+            android:name=".Intent1"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".Calculator"
+            android:exported="true"></activity>
         <activity android:name=".Listener" />
         <activity android:name=".MainActivity" />
     </application>
