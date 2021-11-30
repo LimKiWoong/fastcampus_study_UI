@@ -19,3 +19,11 @@ ex) 디바이스의 문제점
 Fragment
 - 라이프사이클 존재
 - 액티비티에 종속적이다.
+
+사용방법
+- XML에 ViewComponent로 추가한다
+- 코드로 추가한다.
+
+데이터 전달방법
+- Activity -> Fragment : argument와 bundle
+- Fragment -> Activity : 자체 구현(리스너 구현)

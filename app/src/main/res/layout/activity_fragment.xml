@@ -7,16 +7,28 @@
     tools:context=".FragmentActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:textSize="50dp"
-        android:text="hello"/>
-
     <fragment
         android:id="@+id/fragment_one"
         android:name="com.woongs.fastclass_study_ui.FragmentOne"
         android:layout_width="match_parent"
-        android:layout_height="300dp"/>
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="숨지마라!"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="사라져라!"/>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/purple_200"/>
 
 </LinearLayout>
