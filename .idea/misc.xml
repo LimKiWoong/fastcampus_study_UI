@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.129981884057971" />
+        <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/activity_intent.xml" value="0.30932971014492755" />
         <entry key="app/src/main/res/layout/activity_intent2.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_internet_open.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/fragment_one.xml" value="0.2078125" />
       </map>
     </option>
   </component>
