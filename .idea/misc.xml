@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lkw46/AndroidStudioProjects/fastcampus_study_UI/app/src/main/res/layout/activity_add_view.xml" value="0.33" />
+        <entry key="..\:/Users/lkw46/AndroidStudioProjects/fastcampus_study_UI/app/src/main/res/layout/content_add_view.xml" value="0.1875" />
+        <entry key="..\:/Users/lkw46/AndroidStudioProjects/fastcampus_study_UI/app/src/main/res/layout/content_add_view2.xml" value="0.1875" />
+        <entry key="..\:/Users/lkw46/AndroidStudioProjects/fastcampus_study_UI/app/src/main/res/layout/fragment_second.xml" value="0.1875" />
+        <entry key="..\:/Users/lkw46/AndroidStudioProjects/fastcampus_study_UI/app/src/main/res/layout/item_view.xml" value="0.36614583333333334" />
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.129981884057971" />
         <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/activity_intent.xml" value="0.30932971014492755" />
@@ -15,7 +20,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
